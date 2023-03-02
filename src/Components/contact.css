@@ -1,0 +1,40 @@
+.icon-send{
+    background: rgb(204, 203, 203);
+    color: rgb(12, 11, 11);
+    border: 1px solid #eaeff1;
+}
+.icon-send:hover {
+    transition: 0.4s ease-in-out;
+    background: #4F95DA;
+    color: white;
+    }
+.content{
+    display: flex;
+    justify-content: space-around;
+
+}
+.right{
+    width: 45vw;
+}
+.right form{
+    display: grid;
+    grid-template-columns: auto auto ;
+    row-gap: 30px;
+    column-gap: 30px;
+
+}
+.right form input{
+    height: 50px;
+    border-radius: 5px;
+}
+.right form textarea{
+    height:150px;
+    border-radius: 5px;
+
+}
+.message{
+    grid-column: 1/3;
+}
+.details{
+    margin-bottom: 30px;
+}
