@@ -5,6 +5,7 @@ import Banner from './Components/Banner'
 import Bubble from './Components/Bubble';
 import Skills from './Components/Skills'
 import Project from './Components/Project'
+import Experience from './Components/Experience';
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
       <Navbar/>
       <Banner/>
       <Skills/> 
+      <Experience/>
       <Project/>
       <ContactMe/>      
     </>
