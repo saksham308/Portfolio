@@ -5,10 +5,10 @@ import photo from "./user.png";
 import email from "./email.png";
 import phone from "./phone-call.png";
 function ContactMe() {
-  const form = useRef();;
-  const id= useRef();
-  const message=useRef();
-  const name= useRef()
+  const form = useRef();
+  const id = useRef();
+  const message = useRef();
+  const name = useRef();
   function sendEmail(e) {
     e.preventDefault();
 
@@ -22,15 +22,14 @@ function ContactMe() {
           console.log(error.text);
         }
       );
-      name.current.value=''
-      id.current.value=''
-      message.current.value=''
+    name.current.value = "";
+    id.current.value = "";
+    message.current.value = "";
     console.log(form);
   }
   return (
     <>
-      <div id="contact
-      ">
+      <div id="contact">
         <h1
           className="heading"
           style={{ marginTop: "80px", marginBottom: "10px" }}
@@ -97,9 +96,19 @@ function ContactMe() {
           <div className="right">
             <h3>Message Me</h3>
             <form ref={form} onSubmit={sendEmail}>
-              <input ref={name} type="text" placeholder="Enter Your Name" name="name" />
+              <input
+                ref={name}
+                type="text"
+                placeholder="Enter Your Name"
+                name="name"
+              />
 
-              <input ref={id} type="email" placeholder="Enter Your Email" name="email" />
+              <input
+                ref={id}
+                type="email"
+                placeholder="Enter Your Email"
+                name="email"
+              />
 
               <textarea
                 ref={message}

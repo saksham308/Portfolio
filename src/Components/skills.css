@@ -1,52 +1,55 @@
-.skills{
-    display:flex;
-    justify-content: space-evenly;
+.skills {
+  display: flex;
+  justify-content: space-evenly;
 }
-.frontend{background-color: rgb(231, 241, 247);
-        height: 450px;
-        width: 425px;
-        border-radius: 50px;
-        text-align: center;
-        transition: transform 0.3s;
+.frontend {
+  background-color: rgb(231, 241, 247);
+  height: 450px;
+  width: 425px;
+  border-radius: 50px;
+  text-align: center;
+  transition: transform 0.3s;
 }
-.frontend:hover{
-    transform: scale(1.07);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+.frontend:hover {
+  transform: scale(1.07);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.backend:hover{
-    transform: scale(1.07);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-    
+.backend:hover {
+  transform: scale(1.07);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.backend{background-color: rgb(231, 241, 247);
-        height: 450px;
-        width: 425px;
-        border-radius: 50px;
-        text-align: center;
-        transition: transform 0.3s;
+.backend {
+  background-color: rgb(231, 241, 247);
+  height: 450px;
+  width: 425px;
+  border-radius: 50px;
+  text-align: center;
+  transition: transform 0.3s;
 }
-.heading{
-    text-align: center;
-    margin-bottom: 3rem;
-    font-size: 3rem;
-    font-weight:600;
+.heading {
+  text-align: center;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.myskill {
+  margin-top: 3vw;
+  font-size: 2rem;
+  font-weight: bold;
 
-}
-.myskill{
-    margin-top: 3vw;
-    font-size: 2rem;
-    font-weight: bold;
-    
-    color: rgb(35, 27, 51);
+  color: rgb(35, 27, 51);
 }
 
-ul li{
-    margin-top: 40px;
-    font-size: large;
-    background-image: url('https://img.freepik.com/free-icon/check-sign_318-9087.jpg');
-    background-position:125px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    list-style: none;
-
+ul li {
+  margin-top: 40px;
+  font-size: large;
+  background-image: url("https://img.freepik.com/free-icon/check-sign_318-9087.jpg");
+  background-position: 125px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  list-style: none;
 }

@@ -1,31 +1,29 @@
-.nav{
-    display: flex;
-    justify-content: space-between;
-    background-color:   #939da7;
-    color: rgb(7, 6, 6);
-    position: sticky;
-    top: 0px;
-    z-index: 1;
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #939da7;
+  color: rgb(7, 6, 6);
+  position: sticky;
+  top: 0px;
+  z-index: 1;
 }
-.list{
-    margin: 30px;
-    display: flex;
-    
+.list {
+  margin: 30px;
+  display: flex;
 }
-.name{
-    display: inline;
-    margin: 30px;
+.name {
+  display: inline;
+  margin: 30px;
 }
-.list h5{
-    margin-left: 20px;
-    
+.list h5 {
+  margin-left: 20px;
 }
-a{
-    color: rgb(19, 17, 17);
-    text-decoration: none;
-    list-style: none;
+a {
+  color: rgb(19, 17, 17);
+  text-decoration: none;
+  list-style: none;
 }
-a:hover{
-    text-decoration: none;
-    color: rgb(87, 16, 218);
+a:hover {
+  text-decoration: none;
+  color: rgb(87, 16, 218);
 }

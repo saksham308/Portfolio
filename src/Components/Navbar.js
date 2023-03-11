@@ -4,11 +4,10 @@ function Navbar() {
   const color = useRef();
   function scrollNav() {
     console.log(color);
-    
   }
 
   return (
-    <div ref={color}  className="nav">
+    <div ref={color} className="nav">
       <h2 className="name">SAKSHAM</h2>
       <ul className="list">
         <h5>
@@ -21,7 +20,7 @@ function Navbar() {
           <a href="#project">Projects</a>
         </h5>
         <h5>
-          <a href="">Experience</a>
+          <a href="#experience">Experience</a>
         </h5>
         <h5>
           <a href="#contact">Contact</a>

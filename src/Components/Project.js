@@ -72,7 +72,10 @@ function Project() {
           <div className="image__overlay  ">
             <div className="image__title">Chrome Extension</div>
             <button className="image__description">
-              <a href="https://github.com/saksham308/Chrome-Extension.git" target="_blank">
+              <a
+                href="https://github.com/saksham308/Chrome-Extension.git"
+                target="_blank"
+              >
                 {" "}
                 Watch Live{" "}
               </a>
