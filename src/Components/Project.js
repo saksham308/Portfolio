@@ -82,6 +82,25 @@ function Project() {
             </button>
           </div>
         </div>
+        <div className="image">
+          <img
+            className="image__img"
+            src="https://alphalogix.co.uk/wp-content/uploads/2019/09/followup.jpg"
+            alt="Bricks"
+          />
+          <div className="image__overlay  ">
+            <div className="image__title">Contact Management App</div>
+            <button className="image__description">
+              <a
+                href="https://contact-manager-97982.web.app/"
+                target="_blank"
+              >
+                {" "}
+                Watch Live{" "}
+              </a>
+            </button>
+          </div>
+        </div>
       </div>
     </>
   );
